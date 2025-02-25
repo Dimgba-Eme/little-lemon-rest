@@ -1,8 +1,11 @@
-import React, {useEffect} from 'react';
-import { Text, View, Pressable, Button, StyleSheet, Alert } from "react-native";
-import * as SQLite from 'expo-sqlite';
-// import { NavigationContainer } from '@react-navigation/native';
-// import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import * as React from 'react';
+import { Text, View, StyleSheet } from "react-native";
+import Home from '../Screens/Home';
+import Profile from '../Screens/Profile';
+import Onboarding from '../Screens/Onboarding';
+
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 
 
@@ -11,8 +14,6 @@ export default function Index() {
   return (
     <>
       <View style={styles.container}>
-      <Text style={styles.text}>Expo SQLite String</Text>
-
       </View >
     </>
   );
